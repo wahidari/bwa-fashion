@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Product - Fashion</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-uppercase mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="designer.html">Designer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <a href="cart.html" class="nav-link text-white"><i class="fas fa-shopping-cart"></i> My Cart (<span>12</span>)</a>
+            </div>
+        </div>
+    </nav> 
+    <!-- End Navbar -->
+
+    <!-- Breadcrumb -->
+    <div class="container mt-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent pl-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Single Product</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Single Product  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-6 col-md-6 col-sm-6">
+                    <figure class="figure">
+                        <img src="img/product1d.png" class="figure-img img-fluid rounded">
+                        <div class="card p-2 product-thumbnail-container mx-5 shadow-lg">
+                            <figcaption class="figure-caption d-flex justify-content-between">
+                                <a href="" class="thumbnail-active">
+                                    <img src="img/product1c.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="img/product1a.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="img/product1b.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="img/ic_play.png" alt="">
+                                </a>
+                            </figcaption>
+                        </div>
+                        
+                    </figure>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-6 offset-1">
+                    <h3 class="mt-4">Scarf 100</h3>
+                    <p class="text-muted mb-5">IDR 200.000</p>
+                    <a name="" id="" class="btn btn-secondary" href="#" role="button">
+                        <i class="fas fa-minus-circle"></i>
+                    </a>
+                    <span class="mx-3 font-weight-bolder text-muted">2</span>
+                    <a name="" id="" class="btn btn-success" href="#" role="button">
+                        <i class="fas fa-plus-circle"></i>
+                    </a>
+                    <div class="mt-5 mb-4">
+                        <a name="" id="" class="btn btn-warning text-white d-block mb-3" href="cart.html" role="button">Add to Cart</a>
+                        <a name="" id="" class="btn btn-outline-secondary  d-block" href="#" role="button">Add to Wishlist</a>
+                    </div>
+                    <hr >
+
+                    <h6 class="text-muted mt-4">Designed by</h6>
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <img src="img/designer1.png" alt="designer" class="img-fluid">
+                        </div>
+                        <div class="col mt-1">
+                            <h5>Jenny Wilson</h5>
+                            <p class="text-muted">100K Followers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Single Product -->
+
+    <!-- Detail Product Section -->
+    <section class="detail-product pt-4">
+        <div class="container mt-4 ">
+            <div class="row mt-4">
+                <div class="col-lg-9 shadow-lg border-radius pt-2">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active px-3" data-toggle="tab" href="#description"> Description </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" data-toggle="tab" href="#review">Review (<span class="text-success">10</span>)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" data-toggle="tab" href="#no-review">No Review (<span class="text-danger">0</span>)</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="description" class="container tab-pane active"><br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique pretium scelerisque est diam. Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Nunc tristique pretium scelerisque est diam. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Nunc tristique pretium scelerisque est diam. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. </p> 
+                            <p>Nunc tristique pretium scelerisque est diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nunc tristique pretium scelerisque est diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique
+                            pretium scelerisque est diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique pretium
+                            scelerisque est diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique pretium scelerisque est
+                            diam.</p>
+                        </div>
+                        <div id="review" class="container tab-pane fade"><br>
+                            <div class="row">
+                                <div class="col-lg-1 col-md-1 mr-3 mb-2">
+                                    <img src="img/reviewer.png" alt="reviewer">
+                                </div>
+                                <div class="col-lg-10 col-md-10">
+                                    <h5>Cameron Williamson</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus maecenas vulputate bibendum quis enim, risus urna
+                                    dictumst maecenas.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-1 col-md-1 mr-3 mb-2">
+                                    <img src="img/reviewer2.png" alt="reviewer">
+                                </div>
+                                <div class="col-lg-10 col-md-10">
+                                    <h5>Arlene McCoy</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus maecenas vulputate bibendum quis enim, risus
+                                        urna
+                                        dictumst maecenas.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-1 col-md-1 mr-3 mb-2">
+                                    <img src="img/reviewer2.png" alt="reviewer">
+                                </div>
+                                <div class="col-lg-10 col-md-10">
+                                    <h5>Arlene McCoy</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus maecenas vulputate bibendum quis enim, risus
+                                        urna
+                                        dictumst maecenas.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-1 col-md-1 mr-3 mb-2">
+                                    <img src="img/reviewer2.png" alt="reviewer">
+                                </div>
+                                <div class="col-lg-10 col-md-10">
+                                    <h5>Arlene McCoy</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus maecenas vulputate bibendum quis enim, risus
+                                        urna
+                                        dictumst maecenas.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-1 col-md-1 mr-3 mb-2">
+                                    <img src="img/reviewer2.png" alt="reviewer">
+                                </div>
+                                <div class="col-lg-10 col-md-10">
+                                    <h5>Arlene McCoy</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus maecenas vulputate bibendum quis enim, risus
+                                        urna
+                                        dictumst maecenas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="no-review" class="container tab-pane text-center"><br>
+                            <img src="img/no-review.png">
+                            <h4>Oops !</h4>
+                            <p>Belum ada review untuk produk ini</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Detail Product Section -->
+
+    <!-- Spesial Section -->
+    <section class="similiar p-5 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="mb-2">Similiar Product</h2>
+                    <p>Pakaian pelengkap product diatas</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <!-- <div class="card"> -->
+                        <figure class="figure">
+                            <div class="figure-img">
+                                <img src="img/product8.png" class="figure-img img-fluid rounded" alt="product">
+                                <a href="single-product.html" class="d-flex justify-content-center">
+                                    <img src="img/ic_detail.png" class="align-self-center">
+                                </a>
+                            </div>
+                            <figcaption class="figure-caption d-flex justify-content-between">
+                                <h6>Scarf 100</h6>
+                                <p>IDR 100.000</p>
+                            </figcaption>
+                        </figure>
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <!-- <div class="card"> -->
+                    <figure class="figure">
+                        <div class="figure-img">
+                            <img src="img/product9.png" class="figure-img img-fluid rounded" alt="product">
+                            <a href="" class="d-flex justify-content-center">
+                                <img src="img/ic_detail.png" class="align-self-center">
+                            </a>
+                        </div>
+                        <figcaption class="figure-caption d-flex justify-content-between">
+                            <h6>Scarf 100</h5>
+                            <p>IDR 100.000</p>
+                        </figcaption>
+                    </figure>
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <!-- <div class="card"> -->
+                    <figure class="figure">
+                        <div class="figure-img">
+                            <img src="img/product7.png" class="figure-img img-fluid rounded" alt="product">
+                            <a href="" class="d-flex justify-content-center">
+                                <img src="img/ic_detail.png" class="align-self-center">
+                            </a>
+                        </div>
+                        <figcaption class="figure-caption d-flex justify-content-between">
+                            <h6>Scarf 100</h6>
+                            <p>IDR 100.000</p>
+                        </figcaption>
+                    </figure>
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <!-- <div class="card"> -->
+                    <figure class="figure">
+                        <div class="figure-img">
+                            <img src="img/product10.png" class="figure-img img-fluid rounded" alt="product">
+                            <a href="" class="d-flex justify-content-center">
+                                <img src="img/ic_detail.png" class="align-self-center">
+                            </a>
+                        </div>
+                        <figcaption class="figure-caption d-flex justify-content-between">
+                            <h6>Scarf 100</h6>
+                            <p>IDR 100.000</p>
+                        </figcaption>
+                    </figure>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Spesial Section -->
+
+    <!-- Email Section  -->
+    <section class="update mb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 text-center mb-2">
+                    <h5>REGISTER TO GET UPDATE</h5>
+                </div>
+                <div class="col-12 col-sm-6 mb-2">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn bg-custom text-white" type="button" id="button-addon2">DAFTAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Email Section -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo border-top">
+    
+        <!-- Footer Links -->
+        <div class="container text-md-left">
+    
+            <!-- Grid row -->
+            <div class="row">
+    
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto mt-4">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                    <p class="mt-3">
+                        Fashion menciptakan kemungkinan gaya tanpa batas mulai dari produk internasional hingga produk lokal dambaan.
+                    </p>
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img src="img/Facebook.png" alt="logo" class="social-link">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img src="img/twitter.png" alt="logo" class="social-link">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img src="img/instagram.png" alt="logo" class="social-link">
+                            </a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <!-- Grid column -->
+    
+    
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+    
+                    <!-- Links -->
+                    <h5 class="text-uppercase mt-4 mb-3">Informasi</h5>
+    
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Aturan Pengguna</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kebijakan Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Syarat & Ketentuan</a>
+                        </li>
+                        <li>
+                            <a href="#!">Lokasi Toko</a>
+                        </li>
+                        <li>
+                            <a href="#!">Karir</a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+    
+                    <!-- Links -->
+                    <h5 class="text-uppercase mt-4 mb-3">Bantuan</h5>
+    
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Cara Berbelanja</a>
+                        </li>
+                        <li>
+                            <a href="#!">Panduan Ukuran</a>
+                        </li>
+                        <li>
+                            <a href="#!">Pertanyaan Umum</a>
+                        </li>
+                        <li>
+                            <a href="#!">Retur & Pengembalian Dana</a>
+                        </li>
+                        <li>
+                            <a href="#!">Cek Pengiriman</a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+    
+                    <!-- Links -->
+                    <h5 class="text-uppercase mt-4 mb-3">Contact</h5>
+    
+                    <ul class="list-unstyled">
+                        <li>
+                            09.00 - 17.00 (Senin - Minggu) <p></p>
+                        </li>
+                        <li>
+                            WhatsApp
+                        </li>
+                        <li>
+                            081233824714 <p></p>
+                        </li>
+                        <li>
+                            Email
+                        </li>
+                        <li>
+                            help@fashion.co.id
+                        </li>
+                    </ul>
+    
+                </div>
+                <!-- Grid column -->
+    
+            </div>
+            <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">All Right Reserved Copyright © 2020 by
+            <a href="#"> Fashion</a>
+        </div>
+        <!-- Copyright -->
+    
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>

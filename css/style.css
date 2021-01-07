@@ -1,0 +1,259 @@
+body {
+    font-family: roboto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #171717;
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+.nav-item.active a {
+    font-weight: 600;
+    color: #FFC300 !important;
+}
+
+.nav-link span {
+    color: #FFC300;
+}
+
+.nav-link {
+    padding: 0.5rem 0;
+}
+
+/* Carousel */
+.carousel {
+    color: #fff ;
+    background-color: #171717;
+    /* height: 480px; */
+}
+
+.carousel h1 { 
+    font-family: lora;
+    font-weight: 600;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .carousel h1 { 
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .carousel p { 
+        margin: 0px 50px;
+        text-align: center;
+    }
+
+    .carousel .center-sm { 
+        text-align: center;
+    }
+}
+
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
+
+.brand {
+    margin: 70px 0px;
+}
+
+.spesial {
+    background-color: #F5F5F5;
+}
+
+.spesial h2 {
+    font-family: lora;
+    font-weight: 600;
+    color: #072266;
+}
+
+.spesial h5 {
+    color: #1F2E35;
+}
+
+
+.spesial .card p {
+    color: #4A4A4A;
+}
+
+.figure {
+    /* margin-bottom: 0; */
+    margin-top: 16px;
+}
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+
+.designer {
+    margin: 70px 0px;
+}
+
+.designer h2 {
+    font-family: lora;
+    font-weight: 600;
+    color: #072266;
+}
+
+.designer h5 {
+    color: #1F2E35;
+}
+
+.designer a {
+    font-size: 18px;
+    font-family: lora;
+    font-weight: 600;
+    color: #072266;
+}
+
+
+.update h5 {
+    font-family: lora;
+    font-weight: 600;
+    color: #072266;
+}
+
+.bg-custom {
+    background-color: #072266;
+}
+
+.bg-custom:hover {
+    background-color: #01164b;
+}
+
+.page-footer {
+    background-color: #F6F6F6;
+}
+
+.social-link {
+    width: 20px;
+    height: auto;
+}
+
+.page-footer a {
+    color: #4A4A4A ;
+}
+
+.footer-copyright {
+    color: #fff ;
+    background-color: #171717;
+}
+
+.footer-copyright a {
+    color: #fff ;
+}
+
+.page-footer li {
+    margin-bottom: 8px;
+}
+
+
+.product-thumbnail-container {
+    transform: translateY(-70px);
+}
+
+.thumbnail-active {
+    border: 2px solid #2E3A59;
+    border-radius: 4px;
+}
+
+.similiar h2 {
+    font-family: lora;
+    font-weight: 600;
+    color: #072266;
+}
+
+
+/* DETAIL PRODUCT */
+
+.detail-product {
+    /* max-height: 200px; */
+    background-color: #F8F8F8;
+}
+
+.detail-product .border-radius {
+    border-radius: 8px;
+}
+
+#description p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #4A4A4A;
+    line-height: 28px;
+}
+
+.tab-pane {
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.tab-pane h5 {
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.tab-pane p {
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+/* CART  */
+
+.title h2 {
+    font-weight: 600;
+    color: #01164b;
+    font-family: lora;
+}
+
+.your-items h4, .biaya h4 {
+    font-weight: 600;
+    color: #01164b;
+    font-family: lora;
+}
+
+.your-items h4, .biaya h4 {
+    font-weight: 600;
+    color: #01164b;
+    font-family: lora;
+}
+
+.biaya {
+    background-color: #F2F2F2;
+    /* padding: 16px; */
+}
+
+.total-price h5 {
+    font-weight: 600;
+    color: #01164b;
+}
+
+.category h2 {
+    font-weight: 600;
+    color: #01164b;
+    font-family: lora;
+}
